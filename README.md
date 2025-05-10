@@ -19,10 +19,8 @@ The Dependency Inversion Principle states that:
 The project showcases how different payment services can be easily integrated and swapped without modifying the core payment logic.
 
 ### Key Components
-- `IPaymentService`: An interface defining a common contract for payment services
-- Concrete payment service classes implement the `IPaymentService` interface
+- `IPaymentService`: An interface defining a common contract for payment services. Concrete payment service classes implement the `IPaymentService` interface
 - `Payment` class represents a payment transaction
-- The program allows selecting and processing payments through different services
 
 ## Running the Project
 1. Ensure you have .NET SDK installed
